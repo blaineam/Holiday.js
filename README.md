@@ -8,15 +8,16 @@ Holidays.js is a javascript library that allows you to detect if a particular da
 # Holiday Occurrence Object Properties
 
 Each holiday object that is checked against a property names occurrence so these are the built in functions it can use to determine if it is a holiday.
-|Property|Type|Values|Description|  
-|--|--|--|--|
+
+| Property | Type | Values | Description |  
+| --- | --- | --- | --- |
 | month | number |1-12|[Required] Month the holiday takes place in|
-|dayofmonth|number|1-31|[optional] Day of the month the holiday is on|
-|dayofmonthmin|number|1-31|[optional] Minimum day of the month to start the holiday on (must be used with dayofmonthmax|
-|dayofmonthmax|number|1-31|[optional] Maximum day of the month to run the holiday through (must be used with dayofmonthmin)|
-|weeknumber|number|1-5|[optional] week number the holiday takes place on in accordance to a week day eg, fourth Thursday in a month (must be used with weekday)|
-|weekday|string|Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday|[optional] weekday proper for which to find the first occurence on a given week number (must be used with weeknumber)|
-|lastday|string|Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday|[optional] the last occurrence of the weekday in a given month say the last Friday of September|
+| dayofmonth | number | 1-31 | [optional] Day of the month the holiday is on |
+| dayofmonthmin | number | 1-31 | [optional] Minimum day of the month to start the holiday on (must be used with dayofmonthmax |
+| dayofmonthmax | number | 1-31 | [optional] Maximum day of the month to run the holiday through (must be used with dayofmonthmin) |
+| weeknumber | number | 1-5 | [optional] week number the holiday takes place on in accordance to a week day eg, fourth Thursday in a month (must be used with weekday) |
+| weekday | string | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | [optional] weekday proper for which to find the first occurence on a given week number (must be used with weeknumber) |
+| lastday | string | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | [optional] the last occurrence of the weekday in a given month say the last Friday of September |
 
 The whole occurrence object can be replaced with a function that gets passed a Date object to check for the holiday and must return true if that date matches that holiday or false if it doesn't match that holiday:
 
