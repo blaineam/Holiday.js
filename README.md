@@ -19,7 +19,8 @@ Each holiday object that is checked against a property names occurrence so these
 | weekday | string | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | [optional] weekday proper for which to find the first occurence on a given week number (must be used with weeknumber) |
 | lastday | string | Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday | [optional] the last occurrence of the weekday in a given month say the last Friday of September |
 
-Although the month is required at least one of the optional properties is needed to function correctly. some optional tags require a paired optional tag based on its description. if you have an error in the holiday json the browser will inform you where it is in the console warnings. 
+Although the month is required at least one of the optional properties is needed to function correctly. Some optional tags require a paired optional tag based on its description. If you have an error in the holiday json the browser will inform you where it is in the console warnings. 
+
 The whole occurrence object can be replaced with a function that gets passed a Date object to check for the holiday and must return true if that date matches that holiday or false if it doesn't match that holiday:
 
     {"occurrence":function(date){ var dateisholiday = true; return dateisholiday; } }
