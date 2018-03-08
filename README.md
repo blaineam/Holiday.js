@@ -48,7 +48,7 @@ var holidays = {
 		'name':'Valentines Day',
 		'greeting':'Happy Valentines Day!',
 		'image':'src/img/holidays/valentines.png',
-		'occurrence':{'month':11, 'dayofmonth':14}
+		'occurrence':{'month':2, 'dayofmonth':14}
 	},
 	'halloween': {
 		'name':'Halloween',
@@ -193,5 +193,5 @@ This library is rather small so please host it on your own server where possible
 
 ## Example is on JSFiddle
 
-An example of the Holiday.js Script is over on [JSFiddle](https://jsfiddle.net/9nnoehf7/26/) and my [portfolio](https://www.blaineam.com) site;
+An example of the Holiday.js Script is over on [JSFiddle](https://jsfiddle.net/j9hfedm7/2/) and my [portfolio](https://www.blaineam.com) site;
 
