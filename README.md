@@ -134,6 +134,12 @@ var holidays = {
 		'image':'src/img/holidays/starwars.png',
 		'occurrence':{'month':5, 'dayofmonth':4}
 	},
+	'masonsbirthday': {
+		'name':'Mason'\s Birthday',
+		'greeting':'Make sure to get him a present',
+		'image':'src/img/holidays/mason.png',
+		'occurrence':{'month':11, 'dayofmonth':14}
+	},
 	'mlkj': {
 		'name':'Martin luther King, Jr. Day',
 		'greeting':'I Have A Dream!',
